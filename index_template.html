@@ -295,9 +295,10 @@
                         {% for interest in interests %}
                         <section>
                             <h3>{{ interest.name }}</h3>
-                            {% if interest.summary %}
-                            <p>{{ interest.summary }}</p>
-                            {% endif %} {% if interest.images %}
+                            {% if interest.summary %} {% for line in
+                            interest.summary %}
+                            <p>{{ line }}</p>
+                            {% endfor %} {% endif %} {% if interest.images %}
                             <div class="gallery side-gallery">
                                 {% for img in interest.images %}
                                 <figure>
