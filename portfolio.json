@@ -9,13 +9,13 @@
   "summary": "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights\nResults-driven professional with a proven track record of tackling complex data challenges across multiple industries. With a passion for harnessing the power of data to inform strategic decision-making, I deliver actionable insights that drive business growth and unlock hidden opportunities.\nSkilled in designing and implementing scalable data architectures, I excel at collaborating with cross-functional\nteams to bridge gaps between data science, business strategy, and technical execution.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
-    {
+    {co
       "label": "Jake - LinkedIn",
       "url": "https://www.linkedin.com/in/jake-pullen/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "JAke - GitHub",
+      "label": "Jake - GitHub",
       "url": "https://github.com/Jake-Pullen",
       "svg_path": "img/github.svg"
     }
@@ -29,190 +29,90 @@
       "end_date": "Present",
       "summary": "As a trusted data engineer, I leverage my expertise to design, develop, and optimize data systems that unlock valuable insights for businesses. My primary focus is on transforming raw data into actionable intelligence, driving informed decision-making and business growth. By delivering high-quality data solutions, I help clients stay ahead in their industry.",
       "highlights": [
-        "Building and maintaining large data products that contain a variety of data models and datasets that provide invaluable insight to the business",
-        "Building a data validation framework, allowing the data squads and their stakeholders to build robust and repeatable tests on their data to build confidence and spot issues before end users.",
-        "Build a documentation tool that "
+        "I design, develop, and maintain scalable data products that integrate various data models and datasets, delivering actionable insights to drive business decisions.",
+        "I developed a comprehensive data validation framework, empowering teams to create robust and repeatable tests, ensuring data quality and confidence in their data pipelines.",
+        "I built an automated documentation tool that generates detailed documentation for complex data models, including markdown files and interactive mermaid diagrams for visualizing lineage, impact analysis, and entity relationships."
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "The Access Group",
+      "position": "Data Engineer",
+      "url": "https://www.theaccessgroup.com/",
+      "start_date": "April 2021",
+      "end_date": "May 2024",
+      "summary": "As the primary data engineer for finance in the healthcare sector, I played a critical role in driving financial reporting, forecasting, and invoice generation. Additionally, I led complex patient data migrations to support onboarding new clients and maintained the integrity of our data warehouse reporting layer.",
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "I developed and maintained a comprehensive financial forecasting tool that Integrated Care Boards (ICB) used to report to the NHS England",
+        "I led patient data migration efforts for new clients, guaranteeing accurate and timely importation of vital patient information into our systems.",
+        "I created a secure data deletion solution that ensured GDPR compliance by removing client data from our multi-client database. The application logged all deletions and operated within specified timeframes to balance data erasure with system performance.",
+        "I enhanced the existing invoice generation system, significantly reducing error rates and incorporating advanced debugging capabilities for faster troubleshooting."
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Data Pipeline for YNAB",
+      "summary": "I designed and developed a robust data ingestion application, adhering to industry best practices in ETL and Medallion architecture, with a focus on seamless scalability, reliability, and maintainability. The application features comprehensive error handling, logging, unit testing, and proper exit codes, ensuring fast and reliable debugging capabilities, all while leveraging optimal tools such as Polars, YAML, and Parquet files.",
+      "url": "https://github.com/Jake-Pullen/data_pipeline_for_YNAB/",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
-        }
+        "Improved data handling: This application effectively detects and resolves duplicated data and lost data, reducing unnecessary data transfer and improving load times through its delta-style approach.",
+        "Accelerated processing: leveraging Rust-built Polars for rapid data processing, and minimizing file sizes with Parquet storage for efficient data transfer.",
+        "Enhanced transparency: integrated documentation empowers users to quickly understand and debug the application's inner workings, while self-documenting code ensures ease of maintenance and updates."
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
+      "title": "Advent of Code",
+      "summary": "Embracing the Advent of Code challenge as an opportunity for growth, I dedicate myself to annually tackle this coding puzzle contest. Through every iteration, I strive to enhance my problem-solving skills, expand my technical knowledge, and cultivate a deeper understanding of computer science concepts.",
+      "url": "https://github.com/Jake-Pullen/advent_of_code",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
+        "Developed expertise in Python, leveraging its strengths for efficient coding and problem-solving.",
+        "Refined my ability to break down complex problems into manageable parts, and learned to adapt to unexpected inputs and edge cases.",
+        "Improved code organization, readability, and maintainability through careful planning, commenting, and testing.",
+        "Gained a deeper understanding of fundamental algorithms and data structures, including sorting, searching, graph traversal, and dynamic programming techniques.",
+        "Developed skills in coding best practices, debugging, and version control (Git), ensuring reliable and efficient code deployment.",
+        " Demonstrated proficiency with various data structures (e.g., arrays, lists, dictionaries) and their applications in solving computational problems.",
+        "Revisited and reinforced core computer science concepts, including data types, object-oriented programming, recursion, and functional programming."
       ]
     }
   ],
-  "volunteer_experience": [
+  "Certificates": [
     {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
+      "institution": "Microsoft",
+      "Certificates": [
+        "Microsoft Data Engineer Associate (DP203)",
+        "Microsoft Power BI Data Analyst Associate (PL300)"
       ]
     },
     {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
-      "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
-      ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
-    },
-    {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "DataBricks",
+      "Certificates": ["Databricks Certified Data Engineer Associate (currently studying)"]
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
+      "name": "Python, SQL, PySpark, Databases",
       "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Expert"
     },
     {
-      "name": "My Second Skill",
+      "name": "Azure Cloud infrastructure, Azure DevOps, GIT, Azure Data Factory, AI Engineering",
       "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "NoSQL, DAX, Web Development (HTML, CSS, Flask, Authinetication, APIs)",
+      "proficiency": 60,
+      "proficiency_label": "Clear understanding"
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
+      "name": "Coding",
+      "summary": "As a Data Engineer, I believe that continuous learning and improvement are essential to staying ahead in the industry. Outside of work, I dedicate time to coding as a hobby to maintain and expand my skills. By doing so, I'm able to keep my knowledge up-to-date with the latest trends, technologies, and best practices. This not only enhances my professional abilities but also enables me to tackle complex problems more efficiently and creatively.\n\nMoreover, coding as a hobby allows me to explore new areas of interest, experiment with innovative solutions, and develop a deeper understanding of software development principles. By doing so, I'm able to bring fresh perspectives and ideas back into the workplace, driving innovation and improvement in my projects.\n\nUltimately, my passion for coding as a hobby is driven by a desire to stay relevant and competitive in the ever-evolving world of data engineering. By investing time and effort into learning new skills and staying current with industry developments, I'm able to deliver high-quality solutions that meet the needs of my clients and drive business success."
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
-    }
-  ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      "name": "Logistiacal puzzel and simulation games",
+      "summary": "As a Data Engineer, I enjoy playing logistical puzzle and simulation games in my free time because they align with my skills and interests. These types of games challenge me to optimize routes, manage resources, and make data-driven decisions - all skills that are highly relevant to my work as a Data Engineer.\n\nPlaying these games also helps me develop problem-solving skills under pressure, think critically, and analyze complex systems. Additionally, I'm able to apply mathematical concepts such as linear programming, dynamic programming, and graph theory to solve puzzles and optimize game outcomes.\n\nMoreover, these games provide an opportunity for me to work with large datasets, test different scenarios, and explore the impact of various factors on system performance. This hands-on experience helps me develop a deeper understanding of how data drives decision-making in complex systems - a valuable skillset for any Data Engineer.\n\nUltimately, my hobby of playing logistical puzzle and simulation games complements my professional skills as a Data Engineer, allowing me to stay sharp, think creatively, and bring innovative solutions to the table."
     }
   ]
 }
