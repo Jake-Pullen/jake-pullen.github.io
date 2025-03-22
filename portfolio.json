@@ -9,7 +9,7 @@
   "summary": "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights\nResults-driven professional with a proven track record of tackling complex data challenges across multiple industries. With a passion for harnessing the power of data to inform strategic decision-making, I deliver actionable insights that drive business growth and unlock hidden opportunities.\nSkilled in designing and implementing scalable data architectures, I excel at collaborating with cross-functional\nteams to bridge gaps between data science, business strategy, and technical execution.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
-    {co
+    {
       "label": "Jake - LinkedIn",
       "url": "https://www.linkedin.com/in/jake-pullen/",
       "svg_path": "img/linkedin.svg"
@@ -85,7 +85,9 @@
     },
     {
       "institution": "DataBricks",
-      "Certificates": ["Databricks Certified Data Engineer Associate (currently studying)"]
+      "Certificates": [
+        "Databricks Certified Data Engineer Associate (currently studying)"
+      ]
     }
   ],
   "skills": [
@@ -111,7 +113,7 @@
       "summary": "As a Data Engineer, I believe that continuous learning and improvement are essential to staying ahead in the industry. Outside of work, I dedicate time to coding as a hobby to maintain and expand my skills. By doing so, I'm able to keep my knowledge up-to-date with the latest trends, technologies, and best practices. This not only enhances my professional abilities but also enables me to tackle complex problems more efficiently and creatively.\n\nMoreover, coding as a hobby allows me to explore new areas of interest, experiment with innovative solutions, and develop a deeper understanding of software development principles. By doing so, I'm able to bring fresh perspectives and ideas back into the workplace, driving innovation and improvement in my projects.\n\nUltimately, my passion for coding as a hobby is driven by a desire to stay relevant and competitive in the ever-evolving world of data engineering. By investing time and effort into learning new skills and staying current with industry developments, I'm able to deliver high-quality solutions that meet the needs of my clients and drive business success."
     },
     {
-      "name": "Logistiacal puzzel and simulation games",
+      "name": "Logistical puzzel and simulation games",
       "summary": "As a Data Engineer, I enjoy playing logistical puzzle and simulation games in my free time because they align with my skills and interests. These types of games challenge me to optimize routes, manage resources, and make data-driven decisions - all skills that are highly relevant to my work as a Data Engineer.\n\nPlaying these games also helps me develop problem-solving skills under pressure, think critically, and analyze complex systems. Additionally, I'm able to apply mathematical concepts such as linear programming, dynamic programming, and graph theory to solve puzzles and optimize game outcomes.\n\nMoreover, these games provide an opportunity for me to work with large datasets, test different scenarios, and explore the impact of various factors on system performance. This hands-on experience helps me develop a deeper understanding of how data drives decision-making in complex systems - a valuable skillset for any Data Engineer.\n\nUltimately, my hobby of playing logistical puzzle and simulation games complements my professional skills as a Data Engineer, allowing me to stay sharp, think creatively, and bring innovative solutions to the table."
     }
   ]
