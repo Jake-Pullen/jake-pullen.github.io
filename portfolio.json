@@ -1,43 +1,37 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Jake Pullen",
+  "label": "Data Engineer",
+  "image_path": "img/main_photo.jpg",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "jake.pullen333@gmail.com",
+    "location": "Kettering, Northampton, England"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights\nResults-driven professional with a proven track record of tackling complex data challenges across multiple industries. With a passion for harnessing the power of data to inform strategic decision-making, I deliver actionable insights that drive business growth and unlock hidden opportunities.\nSkilled in designing and implementing scalable data architectures, I excel at collaborating with cross-functional\nteams to bridge gaps between data science, business strategy, and technical execution.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "Jake - LinkedIn",
+      "url": "https://www.linkedin.com/in/jake-pullen/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "JAke - GitHub",
+      "url": "https://github.com/Jake-Pullen",
       "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "Aiimi",
+      "position": "Consultant Data Engineer",
+      "url": "https://www.aiimi.com/",
+      "start_date": "May 2024",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": "As a trusted data engineer, I leverage my expertise to design, develop, and optimize data systems that unlock valuable insights for businesses. My primary focus is on transforming raw data into actionable intelligence, driving informed decision-making and business growth. By delivering high-quality data solutions, I help clients stay ahead in their industry.",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+        "Building and maintaining large data products that contain a variety of data models and datasets that provide invaluable insight to the business",
+        "Building a data validation framework, allowing the data squads and their stakeholders to build robust and repeatable tests on their data to build confidence and spot issues before end users.",
+        "Build a documentation tool that "
       ]
     },
     {
