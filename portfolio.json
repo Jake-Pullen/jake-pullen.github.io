@@ -3,7 +3,7 @@
   "label": "Data Engineer",
   "image_path": "img/main_photo.jpg",
   "contact": {
-    "email": "jake.pullen333@gmail.com",
+    "email": "hello@jake-is.me",
     "location": "Kettering, Northampton, England"
   },
   "summary": [
@@ -102,7 +102,7 @@
       "proficiency_label": "Expert"
     },
     {
-      "name": "Azure Cloud infrastructure, Azure DevOps, GIT, Azure Data Factory, AI Engineering",
+      "name": "Azure Cloud infrastructure, Azure DevOps, GIT, Azure Data Factory, AI Engineering, Linux",
       "proficiency": 80,
       "proficiency_label": "Advanced"
     },
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "name": "Logistical puzzel and simulation games",
+      "name": "Logistical puzzle and simulation games",
       "summary": [
         "As a Data Engineer, I enjoy playing logistical puzzle and simulation games in my free time because they align with my skills and interests. These types of games challenge me to optimize routes, manage resources, and make data-driven decisions - all skills that are highly relevant to my work as a Data Engineer.",
         "Playing these games also helps me develop problem-solving skills under pressure, think critically, and analyze complex systems. Additionally, I'm able to apply mathematical concepts such as linear programming, dynamic programming, and graph theory to solve puzzles and optimize game outcomes.",
