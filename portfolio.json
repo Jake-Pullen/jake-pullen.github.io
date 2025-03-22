@@ -6,7 +6,12 @@
     "email": "jake.pullen333@gmail.com",
     "location": "Kettering, Northampton, England"
   },
-  "summary": "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights\nResults-driven professional with a proven track record of tackling complex data challenges across multiple industries. With a passion for harnessing the power of data to inform strategic decision-making, I deliver actionable insights that drive business growth and unlock hidden opportunities.\nSkilled in designing and implementing scalable data architectures, I excel at collaborating with cross-functional\nteams to bridge gaps between data science, business strategy, and technical execution.",
+  "summary": [
+    "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights",
+    "Results-driven professional with a proven track record of tackling complex data challenges across multiple industries.",
+    "With a passion for harnessing the power of data to inform strategic decision-making, I deliver actionable insights that drive business growth and unlock hidden opportunities.",
+    "Skilled in designing and implementing scalable data architectures, I excel at collaborating with cross-functional teams to bridge gaps between data science, business strategy, and technical execution."
+  ],
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -70,7 +75,7 @@
         "Improved code organization, readability, and maintainability through careful planning, commenting, and testing.",
         "Gained a deeper understanding of fundamental algorithms and data structures, including sorting, searching, graph traversal, and dynamic programming techniques.",
         "Developed skills in coding best practices, debugging, and version control (Git), ensuring reliable and efficient code deployment.",
-        " Demonstrated proficiency with various data structures (e.g., arrays, lists, dictionaries) and their applications in solving computational problems.",
+        "Demonstrated proficiency with various data structures (e.g., arrays, lists, dictionaries) and their applications in solving computational problems.",
         "Revisited and reinforced core computer science concepts, including data types, object-oriented programming, recursion, and functional programming."
       ]
     }

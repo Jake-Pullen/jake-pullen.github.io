@@ -111,9 +111,9 @@
                             </li>
                             {% endfor %}
                         </ul>
-                        {% endif %} {% if summary %}
-                        <p class="header-summary">{{ summary }}</p>
-                        {% endif %}
+                        {% endif %} {% if summary %} {% for line in summary %}
+                        <p class="header-summary">{{ line }}</p>
+                        {% endfor %} {% endif %}
                     </div>
                 </div>
             </div>
