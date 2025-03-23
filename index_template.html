@@ -6,7 +6,7 @@
 
         <!-- Site Info -->
         <title>{{ name }} - Portfolio</title>
-        <meta name="description" content="{{ name }} - {{ summary }}" />
+        <meta name="description" content="{{ name }} - {{ summary[0] }}" />
         <meta name="author" content="{{ name }}" />
 
         <!-- Open Graph Tags: The title of the page for social media sharing. It can match the title tag or be more descriptive. -->
@@ -241,9 +241,8 @@
                         <h2 class="section-heading">Certificates</h2>
                         {% for cert in Certificates %}
                         <section>
-                            <h3>{{ cert.institution }}</h3>
+                            <h3>{{ cert.institution }} Certificates</h3>
                             {% if cert.Certificates %}
-                            <h4>Certificates</h4>
                             <ul>
                                 {% for deg in cert.Certificates %}
                                 <li>{{ deg }}</li>

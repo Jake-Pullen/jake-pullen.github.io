@@ -52,6 +52,19 @@
         "I created a secure data deletion solution that ensured GDPR compliance by removing client data from our multi-client database. The application logged all deletions and operated within specified timeframes to balance data erasure with system performance.",
         "I enhanced the existing invoice generation system, significantly reducing error rates and incorporating advanced debugging capabilities for faster troubleshooting."
       ]
+    },
+    {
+      "company": "CDW",
+      "position": "Service Desk Analyst",
+      "url": "https://www.uk.cdw.com/",
+      "start_date": "July 2020",
+      "end_date": "April 2021",
+      "summary": "Serve as the primary point of contact for technical support issues across a diverse portfolio of clients. Manage and facilitate access to secure Data Centre facilities, ensuring efficient resolution of technical queries.",
+      "highlights": [
+        "Successfully interacted with second and third-line teams, on-site engineers, and end-users to provide timely and effective support, ensuring seamless resolution of technical issues and maintaining strong relationships with key stakeholders.",
+        "Consistently met or exceeded Service Level Agreement (SLA) targets, demonstrating a commitment to delivering exceptional customer service while minimizing downtime and maximizing productivity for our clients.",
+        "Effectively bridged the gap between technical and non-technical language, translating complex technical concepts into clear, concise explanations that end-users could understand, ensuring effective support and resolution of issues in a rapidly changing technical environment."
+      ]
     }
   ],
   "projects": [
@@ -107,7 +120,7 @@
       "proficiency_label": "Advanced"
     },
     {
-      "name": "NoSQL, DAX, Web Development (HTML, CSS, Flask, Authinetication, APIs)",
+      "name": "NoSQL, DAX, Web Development (HTML, CSS, Flask, Authentication, APIs)",
       "proficiency": 60,
       "proficiency_label": "Clear understanding"
     }
