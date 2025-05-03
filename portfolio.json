@@ -69,6 +69,16 @@
   ],
   "projects": [
     {
+      "title": "Verity",
+      "summary": "Very early stage un-named application for financial budgeting, forecasting and planning",
+      "url": "https://github.com/Jake-Pullen/Verity/",
+      "highlights": [
+        "Early stages of development show strong planning skills.",
+        "Constraint and Test driven development to show high creativity",
+        "Large scale project with big goals to show commitment"
+      ]
+    },
+    {
       "title": "Data Pipeline for YNAB",
       "summary": "I designed and developed a robust data ingestion application, adhering to industry best practices in ETL and Medallion architecture, with a focus on seamless scalability, reliability, and maintainability. The application features comprehensive error handling, logging, unit testing, and proper exit codes, ensuring fast and reliable debugging capabilities, all while leveraging optimal tools such as Polars, YAML, and Parquet files.",
       "url": "https://github.com/Jake-Pullen/data_pipeline_for_YNAB/",
