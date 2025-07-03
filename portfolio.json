@@ -4,8 +4,7 @@
   "image_path": "img/main_photo.jpg",
   "contact": {
     "email": "hello@jake-is.me",
-    "location": "Kettering, Northampton, England",
-    "Blog": "jake-is.me/blog"
+    "location": "Kettering, Northampton, England"
   },
   "summary": [
     "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights",
@@ -24,6 +23,11 @@
       "label": "Jake - GitHub",
       "url": "https://github.com/Jake-Pullen",
       "svg_path": "img/github.svg"
+    },
+    {
+      "label": "Jake - Blog",
+      "url": "jake-is.me/blog",
+      "svg_path": "img/globe.svg"
     }
   ],
   "work_experience": [
