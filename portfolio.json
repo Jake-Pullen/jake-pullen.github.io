@@ -4,7 +4,8 @@
   "image_path": "img/main_photo.jpg",
   "contact": {
     "email": "hello@jake-is.me",
-    "location": "Kettering, Northampton, England"
+    "location": "Kettering, Northampton, England",
+    "Blog": "jake-is.me/blog"
   },
   "summary": [
     "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights",
