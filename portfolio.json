@@ -26,7 +26,7 @@
     },
     {
       "label": "Jake - Blog",
-      "url": "jake-is.me/blog",
+      "url": "/blog",
       "svg_path": "img/globe.svg"
     }
   ],
