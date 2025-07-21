@@ -1,13 +1,13 @@
 {
   "name": "Jake Pullen",
-  "label": "Data Engineer",
+  "label": "Senior Data Engineer",
   "image_path": "img/main_photo.jpg",
   "contact": {
     "email": "hello@jake-is.me",
     "location": "Kettering, Northampton, England"
   },
   "summary": [
-    "Transformational Data Engineer: Driving Business Growth through Data-Driven Insights",
+    "Transformational Senior Data Engineer: Driving Business Growth through Data-Driven Insights",
     "Results-driven professional with a proven track record of tackling complex data challenges across multiple industries.",
     "With a passion for harnessing the power of data to inform strategic decision-making, I deliver actionable insights that drive business growth and unlock hidden opportunities.",
     "Skilled in designing and implementing scalable data architectures, I excel at collaborating with cross-functional teams to bridge gaps between data science, business strategy, and technical execution."
@@ -33,12 +33,13 @@
   "work_experience": [
     {
       "company": "Aiimi",
-      "position": "Consultant Data Engineer",
+      "position": "Senior Consultant Data Engineer",
       "url": "https://www.aiimi.com/",
       "start_date": "May 2024",
       "end_date": "Present",
       "summary": "As a trusted data engineer, I leverage my expertise to design, develop, and optimize data systems that unlock valuable insights for businesses. My primary focus is on transforming raw data into actionable intelligence, driving informed decision-making and business growth. By delivering high-quality data solutions, I help clients stay ahead in their industry.",
       "highlights": [
+	"I am a co-leader of the Data Community of Practice, facilitating an enviroment where any data professional feels empowered to share experiences, knowledge and recent achievements.",
         "I design, develop, and maintain scalable data products that integrate various data models and datasets, delivering actionable insights to drive business decisions.",
         "I developed a comprehensive data validation framework, empowering teams to create robust and repeatable tests, ensuring data quality and confidence in their data pipelines.",
         "I built an automated documentation tool that generates detailed documentation for complex data models, including markdown files and interactive mermaid diagrams for visualizing lineage, impact analysis, and entity relationships."
