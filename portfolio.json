@@ -39,7 +39,7 @@
       "end_date": "Present",
       "summary": "As a trusted data engineer, I leverage my expertise to design, develop, and optimize data systems that unlock valuable insights for businesses. My primary focus is on transforming raw data into actionable intelligence, driving informed decision-making and business growth. By delivering high-quality data solutions, I help clients stay ahead in their industry.",
       "highlights": [
-	"I am a co-leader of the Data Community of Practice, facilitating an enviroment where any data professional feels empowered to share experiences, knowledge and recent achievements.",
+        "I am a co-leader of the Data Community of Practice, facilitating an enviroment where any data professional feels empowered to share experiences, knowledge and recent achievements.",
         "I design, develop, and maintain scalable data products that integrate various data models and datasets, delivering actionable insights to drive business decisions.",
         "I developed a comprehensive data validation framework, empowering teams to create robust and repeatable tests, ensuring data quality and confidence in their data pipelines.",
         "I built an automated documentation tool that generates detailed documentation for complex data models, including markdown files and interactive mermaid diagrams for visualizing lineage, impact analysis, and entity relationships."
@@ -82,6 +82,17 @@
         "Early stages of development show strong planning skills.",
         "Constraint and Test driven development to show high creativity",
         "Large scale project with big goals to show commitment"
+      ]
+    },
+    {
+      "title": "Various Ad-hoc Coding Projects",
+      "summary": "A collection of personal projects aimed at improving my Python and Rust skills through hands-on experimentation and continuous learning. These projects are driven by curiosity and the desire to explore new technologies, solve real-world problems, and strengthen technical capabilities.",
+      "url": "https://github.com/Jake-Pullen",
+      "highlights": [
+        "Motivated by a passion for self-improvement, these projects push me to explore new programming paradigms and tools at my own pace.",
+        "Regularly working on diverse tasks increases my learning speed and adaptability across different domains and languages.",
+        "Each project is an opportunity to apply best practices such as clean code principles, testing, and version control to reinforce good habits.",
+        "Encourages experimentation with emerging libraries and frameworks, leading to deeper understanding of software design and architecture."
       ]
     },
     {
@@ -131,12 +142,12 @@
       "proficiency_label": "Expert"
     },
     {
-      "name": "Azure Cloud infrastructure, Azure DevOps, GIT, Azure Data Factory, AI Engineering, Linux",
+      "name": "Azure Cloud infrastructure, Azure DevOps, GIT, Azure Data Factory, AI Engineering, Linux, APIs",
       "proficiency": 80,
       "proficiency_label": "Advanced"
     },
     {
-      "name": "NoSQL, DAX, Web Development (HTML, CSS, Flask, Authentication, APIs)",
+      "name": "NoSQL, DAX, Web Development, Rust",
       "proficiency": 60,
       "proficiency_label": "Clear understanding"
     }
@@ -156,16 +167,6 @@
         "Playing these games also helps me develop problem-solving skills under pressure, think critically, and analyze complex systems. Additionally, I'm able to apply mathematical concepts such as linear programming, dynamic programming, and graph theory to solve puzzles and optimize game outcomes.",
         "Moreover, these games provide an opportunity for me to work with large datasets, test different scenarios, and explore the impact of various factors on system performance. This hands-on experience helps me develop a deeper understanding of how data drives decision-making in complex systems - a valuable skillset for any Data Engineer."
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "German",
-      "fluency": "A2 level of CEFR"
     }
   ]
 }
