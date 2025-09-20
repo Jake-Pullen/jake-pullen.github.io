@@ -1,12 +1,12 @@
-import json
+import yaml
 from datetime import UTC, datetime
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-# Load JSON data
-with Path("portfolio.json").open(encoding="utf-8") as f:
-    data = json.load(f)
+
+with Path("portfolio.yaml").open(encoding="utf-8") as f:
+    data = yaml.safe_load(f)
 
 # Add any extra context if needed
 data["current_year"] = datetime.now(tz=UTC).year
@@ -19,8 +19,8 @@ for link in data.get("social_links"):
 
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader("."), autoescape=True)
-index_template = env.get_template("index_template.html")
-resume_template = env.get_template("resume_template.html")
+index_template = env.get_template("templates/index_template.html")
+resume_template = env.get_template("templates/resume_template.html")
 
 # Render the template with the data
 html_output = index_template.render(**data)
