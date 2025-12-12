@@ -7,7 +7,70 @@
   --blockquote-bg-color: #f7fafc;
   --blockquote-accent-color: #4a5568;
   --blockquote-text-color: #4a5568;
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #444444;
+  --card-border-color: #ccc;
   --spacing-inline: 0.5rem;
+}
+
+[data-theme="dark"] {
+  --link-color: #66b3ff;
+  --link-color-hover: #99ccff;
+  --header-footer-bg-color: #2d2d2d;
+  --aside-accent-color: #b0967d;
+  --skill-bar-fill-color: #5a4b35;
+  --blockquote-bg-color: #2d3748;
+  --blockquote-accent-color: #a0aec0;
+  --blockquote-text-color: #e2e8f0;
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --heading-color: #f0f0f0;
+  --card-border-color: #444;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--text-color);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  background-color: transparent;
+  color: var(--link-color);
+}
+
+.icon-sun,
+.icon-moon {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+/* Default Light Mode: Show Moon, Hide Sun */
+.icon-sun {
+  display: none;
+}
+
+.icon-moon {
+  display: block;
+}
+
+/* Dark Mode: Show Sun, Hide Moon */
+[data-theme="dark"] .icon-sun {
+  display: block;
+}
+
+[data-theme="dark"] .icon-moon {
+  display: none;
 }
 
 /* Base Styles */
@@ -18,6 +81,8 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 h1,
@@ -101,7 +166,7 @@ header {
 }
 
 aside {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--card-border-color);
 }
 
 footer {
@@ -143,12 +208,14 @@ section {
 }
 
 .page-header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--card-border-color);
 }
 
 .page-header .container {
   display: flex;
   flex-direction: column;
+  position: relative;
+  /* For absolute positioning of toggle */
 }
 
 .header-top {
@@ -161,7 +228,7 @@ section {
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid #999;
+  border: 1px solid var(--card-border-color);
 }
 
 .header-info ul {
@@ -176,7 +243,7 @@ section {
 
 .header-label {
   font-size: 1.3rem;
-  color: #444;
+  color: var(--heading-color);
   margin-top: 0.2rem;
   margin-bottom: 0.8rem;
 }
@@ -186,7 +253,7 @@ section {
 }
 
 .page-footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--card-border-color);
 }
 
 .section-heading {
@@ -200,7 +267,7 @@ section {
 .section-heading::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--card-border-color);
   margin: 0 1rem;
 }
 
@@ -219,7 +286,7 @@ aside .section-heading::after {
 
 .section-label {
   font-size: 0.9rem;
-  color: #444;
+  color: var(--heading-color);
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
 }
@@ -247,10 +314,11 @@ img {
 
 figcaption {
   text-align: center;
-  color: #666;
+  color: var(--text-color);
   font-size: 0.9rem;
   margin-top: 0.5rem;
   font-style: italic;
+  opacity: 0.8;
 }
 
 /* Lists */
@@ -277,7 +345,8 @@ aside li {
 }
 
 .inline-list li {
-  display: flex; /* This is for HTML Whitespace Issues */
+  display: flex;
+  /* This is for HTML Whitespace Issues */
 }
 
 /* Skillbars */
@@ -304,6 +373,7 @@ aside li {
 
 .skill-bar-label {
   color: #333;
+  /* Keep dark text on light bar fill */
   font-size: 0.9rem;
   white-space: nowrap;
 }
@@ -387,7 +457,7 @@ blockquote {
 @media (min-width: 48rem) {
   aside {
     border-top: none;
-    border-left: 1px solid #ccc;
+    border-left: 1px solid var(--card-border-color);
   }
 
   aside h1 {

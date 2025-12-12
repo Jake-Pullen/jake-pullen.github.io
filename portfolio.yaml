@@ -19,7 +19,7 @@ skills:
   proficiency: 100
   proficiency_label: Expert
 - name: Azure, DevOps, GIT, Azure Data Factory, AI Engineering,
-    Linux, APIs, MCPs
+    Linux, APIs, MCPs, Machine Learning 
   proficiency: 80
   proficiency_label: Advanced
 - name: NoSQL, DAX, Web Development, Rust
@@ -37,6 +37,14 @@ social_links:
   url: /blog
 base_url: 127.0.0.1:5500
 projects:
+- title: Met Office NIMROD Data Processing
+  highlights:
+  - Concurrent Processing; The application is explicitly designed for Python 3.14t (free-threaded) to leverage multi-threading capabilities, ensuring efficient parallel processing of large datasets.
+  - End-to-End Orchestration; A central main.py script manages the entire lifecycle—automatically uncompressing .gz.tar archives, converting .dat binaries to .asc rasters, and compiling final CSV reports without manual intervention.
+  - Resource Management; It uses a configurable batch processing system (processing a set number of TAR files at a time) to handle large volumes of data without overwhelming system resources.
+  - User Experience Features; The pipeline includes startup safety checks to prevent accidental partial overwrites of existing data and provides a real-time dynamic ETA to track processing progress.
+  summary: This application is a data processing pipeline for UK Met Office Rain Radar NIMROD data. It automates the workflow of extracting compressed rainfall radar images, converting them into useful raster formats (ASCII), and generating consolidated timeseries data suitable for hydrological modeling (specifically formatted for Infoworks ICM).
+  url: https://github.com/Jake-Pullen/met_office_radar_data
 - title: Devin
   highlights:
   - At home AI Agent, powered all locally with the option to use online LLMs
@@ -44,20 +52,12 @@ projects:
   - Constantly growing tool base to be more helpful
   summary: My own custom "Jarvis" from Iron Man, able to look for folders on my pc, tell me the weather for any location and control my Phillips Hue Lights. With plans to add more automations in time.
   url: https://github.com/Jake-Pullen/devin/
-- title: Various Ad-hoc Coding Projects
+- title: Verity, Financial Planner & Forecaster
   highlights:
-  - Motivated by a passion for self-improvement, these projects push me to explore
-    new programming paradigms and tools at my own pace.
-  - Regularly working on diverse tasks increases my learning speed and adaptability
-    across different domains and languages.
-  - Each project is an opportunity to apply best practices such as clean code principles,
-    testing, and version control to reinforce good habits.
-  - Encourages experimentation with emerging libraries and frameworks, leading to
-    deeper understanding of software design and architecture.
-  summary: A collection of personal projects aimed at improving my Python and Rust
-    skills through hands-on experimentation and continuous learning. These projects
-    are driven by curiosity and the desire to explore new technologies, solve real-world
-    problems, and strengthen technical capabilities.
+  - Local-First Privacy; Verity stores all data in a local SQLite database rather than the cloud. This design choice prioritizes security and privacy, ensuring you are the only one with access to your financial details.
+  - Comprehensive Web Interface; It provides a browser-based dashboard for managing your finances, including creating budgets with nested categories (up to 3 tiers), tracking expenses, and managing multiple types of accounts (Current, Cash, Savings, Credit).
+  - Modern Tech Stack; The application is built with Python using Flask for the web server, Rust-based tooling (like uv and ruff) for performance and code quality, and a modular architecture that cleanly separates the frontend from the backend logic.
+  summary: Verity is a local-first, privacy-focused financial planning and budgeting application designed to help you manage your money without relying on external cloud services. It runs completely locally on your machine, ensuring that your sensitive financial data remains private and under your control.
   url: https://github.com/Jake-Pullen
 - title: Data Pipeline for YNAB
   highlights:
@@ -76,27 +76,6 @@ projects:
     fast and reliable debugging capabilities, all while leveraging optimal tools such
     as Polars, YAML, and Parquet files.
   url: https://github.com/Jake-Pullen/data_pipeline_for_YNAB/
-- title: Advent of Code
-  highlights:
-  - Developed expertise in Python, leveraging its strengths for efficient coding and
-    problem-solving.
-  - Refined my ability to break down complex problems into manageable parts, and learned
-    to adapt to unexpected inputs and edge cases.
-  - Improved code organization, readability, and maintainability through careful planning,
-    commenting, and testing.
-  - Gained a deeper understanding of fundamental algorithms and data structures, including
-    sorting, searching, graph traversal, and dynamic programming techniques.
-  - Developed skills in coding best practices, debugging, and version control (Git),
-    ensuring reliable and efficient code deployment.
-  - Demonstrated proficiency with various data structures (e.g., arrays, lists, dictionaries)
-    and their applications in solving computational problems.
-  - Revisited and reinforced core computer science concepts, including data types,
-    object-oriented programming, recursion, and functional programming.
-  summary: Embracing the Advent of Code challenge as an opportunity for growth, I
-    dedicate myself to annually tackle this coding puzzle contest. Through every iteration,
-    I strive to enhance my problem-solving skills, expand my technical knowledge,
-    and cultivate a deeper understanding of computer science concepts.
-  url: https://github.com/Jake-Pullen/advent_of_code
 work_experience:
 - company: Aiimi
   position: Senior Consultant Data Engineer
