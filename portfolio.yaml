@@ -4,15 +4,10 @@ contact:
   email: hello@jake-is.me
   location: Kettering, Northampton, England
 summary:
-  - "Transformational Senior Data Engineer: Driving Business Growth through Data-Driven
-    Insights"
-  - Results-driven professional with a proven track record of tackling complex data
-    challenges across multiple industries.
-  - With a passion for harnessing the power of data to inform strategic decision-making,
-    I deliver actionable insights that drive business growth and unlock hidden opportunities.
-  - Skilled in designing and implementing scalable data architectures, I excel at collaborating
-    with cross-functional teams to bridge gaps between data science, business strategy,
-    and technical execution.
+  - Senior Data Engineer specializing in regulated industries and telemetry processing
+  - Built algorithms converting millions of annual telemetry messages into trusted blocks for regulatory reporting in the water industry
+  - Led development and maintenance of financial forecasting tools used by Integrated Care Boards to report to NHS England
+  - Designed data validation frameworks and automated documentation systems that empower engineering teams
 image_path: img/main_photo.jpg
 skills:
   - name: Python, SQL, PySpark, Databases
@@ -56,8 +51,8 @@ projects:
     highlights:
       - At home AI Agent, powered all locally with the option to use online LLMs
       - MCP Understanding, Tool building and using
-      - Constantly growing tool base to be more helpful
-    summary: My own custom "Jarvis" from Iron Man, able to look for folders on my pc, tell me the weather for any location and control my Phillips Hue Lights. With plans to add more automations in time.
+      - Raw code layer with minimal abstractions, gaining a fundemental knowledge of how AI Agents work at their core
+    summary: My own custom "Jarvis" from Iron Man, able to look for folders on my pc, tell me the weather for any location and control my Phillips Hue Lights.
     url: https://github.com/Jake-Pullen/devin/
   - title: Verity, Financial Planner & Forecaster
     highlights:
@@ -85,23 +80,34 @@ projects:
       as Polars, YAML, and Parquet files.
     url: https://github.com/Jake-Pullen/data_pipeline_for_YNAB/
 work_experience:
+  - company: Coming Soon
+    position: Senior Data Engineer
+    start_date: June 2026
+    end_date: Future
+    summary:
+    url: https://www.jake-is.me
+    highlights:
+      - New Highlights on their way soon
   - company: Aiimi
     position: Senior Consultant Data Engineer
     start_date: May 2024
-    end_date: Present
-    summary: As a trusted data engineer with experience in the highly regulated water industry—operating in the public view. I leverage my expertise to design, develop, and optimize data systems that unlock valuable insights for businesses. My primary focus is on transforming raw data into actionable intelligence, driving informed decision-making and business growth. By delivering high-quality data solutions, I help clients stay ahead in their industry.
+    end_date: June 2026
+    summary: Trusted senior consultant delivering data solutions in the highly regulated water industry. Expert in stakeholder management, translating complex technical requirements into actionable strategies, and providing professional guidance that drives business growth while maintaining regulatory compliance.
     url: https://www.aiimi.com/
     highlights:
       - I am a co-leader of the Data Community of Practice, facilitating an enviroment
         where any data professional feels empowered to share experiences, knowledge and
         recent achievements.
-      - I design, develop, and maintain scalable data products that integrate various
-        data models and datasets, delivering actionable insights to drive business decisions.
+      - Built an algorithm processing millions of telemetry messages annually,
+        converting them into accurate and trusted blocks of activation, alarm,
+        and configuration windows for regulatory reporting.
       - I developed a comprehensive data validation framework, empowering teams to create
         robust and repeatable tests, ensuring data quality and confidence in their data
         pipelines.
-      - I built an automated documentation tool that generates detailed documentation for complex data models, including markdown files and interactive mermaid diagrams for visualizing lineage, impact analysis, and entity relationships.
-      - I am part of a new client initiative building an application that reads telemetry data, applies ML models to detect anomalies and classify them (bursts, blockages, telemetry issues), and provides visualizations and summaries of the telemetry data insights.
+      - I built an automated documentation tool that generates detailed documentation for complex data models,
+        including markdown files and interactive mermaid diagrams for visualizing lineage, impact analysis, and entity relationships.
+      - I am part of a new client initiative building an application that reads telemetry data, applies ML models to detect anomalies
+        and classify them (bursts, blockages, telemetry issues etc), and provides visualisations and summaries of the telemetry data insights.
   - company: The Access Group
     position: Data Engineer
     start_date: April 2021
