@@ -24,9 +24,9 @@ social_links:
   - label: Jake - LinkedIn
     svg_path: img/linkedin.svg
     url: https://www.linkedin.com/in/jake-pullen/
-  - label: Jake - GitHub
+  - label: Jake - Git
     svg_path: img/github.svg
-    url: https://github.com/Jake-Pullen
+    url: https://git.jakes-asgard.uk/Jake
   - label: Jake - Blog
     svg_path: img/globe.svg
     url: /blog
@@ -38,7 +38,7 @@ projects:
       - Deep Context Retrieval; Retrieves relevant chunks and "peeks" at the full source file to provide the LLM with broader narrative context
       - Local-First; Runs entirely on local hardware using LM Studio, keeping campaign secrets private
     summary: An advanced RAG system designed for Dungeon Masters that ingests markdown-based campaign notes, enriches them with AI-generated metadata, and provides an interactive terminal interface to query your world's lore using DSPy and Local LLMs. The system stores embedded chunks in a local Turso database and uses ReAct to answer queries based on retrieved context.
-    url: https://github.com/Jake-Pullen/dungeon_masters_vault
+    url: https://git.jakes-asgard.uk/Jake/dungeon_masters_vault
   - title: Met Office NIMROD Data Processing
     highlights:
       - Concurrent Processing; The application is explicitly designed for Python 3.14t (free-threaded) to leverage multi-threading capabilities, ensuring efficient parallel processing of large datasets.
@@ -46,21 +46,21 @@ projects:
       - Resource Management; It uses a configurable batch processing system (processing a set number of TAR files at a time) to handle large volumes of data without overwhelming system resources.
       - User Experience Features; The pipeline includes startup safety checks to prevent accidental partial overwrites of existing data and provides a real-time dynamic ETA to track processing progress.
     summary: This application is a data processing pipeline for UK Met Office Rain Radar NIMROD data. It automates the workflow of extracting compressed rainfall radar images, converting them into useful raster formats (ASCII), and generating consolidated timeseries data suitable for hydrological modeling (specifically formatted for Infoworks ICM).
-    url: https://github.com/Jake-Pullen/met_office_radar_data
+    url: https://git.jakes-asgard.uk/Jake/met_office_radar_data
   - title: Devin
     highlights:
       - At home AI Agent, powered all locally with the option to use online LLMs
       - MCP Understanding, Tool building and using
       - Raw code layer with minimal abstractions, gaining a fundemental knowledge of how AI Agents work at their core
     summary: My own custom "Jarvis" from Iron Man, able to look for folders on my pc, tell me the weather for any location and control my Phillips Hue Lights.
-    url: https://github.com/Jake-Pullen/devin/
+    url: https://git.jakes-asgard.uk/Jake/devin/
   - title: Verity, Financial Planner & Forecaster
     highlights:
       - Local-First Privacy; Verity stores all data in a local SQLite database rather than the cloud. This design choice prioritizes security and privacy, ensuring you are the only one with access to your financial details.
       - Comprehensive Web Interface; It provides a browser-based dashboard for managing your finances, including creating budgets with nested categories (up to 3 tiers), tracking expenses, and managing multiple types of accounts (Current, Cash, Savings, Credit).
       - Modern Tech Stack; The application is built with Python using Flask for the web server, Rust-based tooling (like uv and ruff) for performance and code quality, and a modular architecture that cleanly separates the frontend from the backend logic.
     summary: Verity is a local-first, privacy-focused financial planning and budgeting application designed to help you manage your money without relying on external cloud services. It runs completely locally on your machine, ensuring that your sensitive financial data remains private and under your control.
-    url: https://github.com/Jake-Pullen
+    url: https://git.jakes-asgard.uk/Jake/verity
   - title: Data Pipeline for YNAB
     highlights:
       - "Improved data handling: This application effectively detects and resolves duplicated
@@ -78,7 +78,7 @@ projects:
       comprehensive error handling, logging, unit testing, and proper exit codes, ensuring
       fast and reliable debugging capabilities, all while leveraging optimal tools such
       as Polars, YAML, and Parquet files.
-    url: https://github.com/Jake-Pullen/data_pipeline_for_YNAB/
+    url: https://git.jakes-asgard.uk/Jake/data_pipeline_for_YNAB/
 work_experience:
   - company: Coming Soon
     position: Senior Data Engineer
