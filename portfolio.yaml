@@ -80,14 +80,30 @@ projects:
       as Polars, YAML, and Parquet files.
     url: https://git.jakes-asgard.uk/Jake/data_pipeline_for_YNAB/
 work_experience:
-  - company: Coming Soon
+  - company: Bennetts Motorcycling Services
     position: Senior Data Engineer
     start_date: June 2026
     end_date: Future
     summary:
-    url: https://www.jake-is.me
+      Bennetts is one of the UK's largest specialist motorcycle insurance brokers, I joined
+      to help modernise the data platform underpinning a high-volume quote operations
+      processing millions of quotes annually. My role focuses on migrating legacy
+      on-premise SQL Server workloads to Azure Databricks, building data pipelines that
+      power insurance statistics and fraud detection workflows, and championing practical
+      AI adoption across the engineering team.
+    url: https://www.bennetts.co.uk/
     highlights:
-      - New Highlights on their way soon
+      - Migrating on-premise legacy SQL Server to cloud-native Azure Databricks, modernising
+        the data platform to support Bennetts' growing volumes
+      - Built monitoring and automated reporting pipelines for ETL refresh times, data
+        quality stats, and validation checks, giving the team confidence in every pipeline
+        run
+      - Championing safe and productive AI usage, identifying real-world use cases where
+        AI tools accelerate engineering workflows, and establishing guardrails and best
+        practices so the team can adopt AI with confidence
+      - Engineering data pipelines that feed into insurance statistics, fraud identification
+        and prevention, and claims analysis; turning raw telematics and broker data into
+        reliable insights that support underwriting and investigations
   - company: Aiimi
     position: Senior Consultant Data Engineer
     start_date: May 2024
